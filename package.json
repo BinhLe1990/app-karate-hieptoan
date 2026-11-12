@@ -1,0 +1,19 @@
+{
+  "name": "karate-hiep-toan-app",
+  "version": "1.0.0",
+  "description": "Ung dung quan ly Hoc Vien Karate Hiep Toan - He phai Shotokan",
+  "main": "index.html",
+  "scripts": {
+    "init-android": "npx cap add android && npx cap sync android",
+    "sync": "npx cap sync",
+    "open-android": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/ios": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  }
+}

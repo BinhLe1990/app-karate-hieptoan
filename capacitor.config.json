@@ -1,0 +1,12 @@
+{
+  "appId": "vn.karate.hieptoan",
+  "appName": "Karate Hiep Toan",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}
